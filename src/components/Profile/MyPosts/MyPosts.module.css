@@ -1,0 +1,66 @@
+.content__formName{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.content__form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:end;
+}
+.content__formArea::placeholder{
+  font-size: 16px;
+  color:#c4c4c4;
+}
+.content__formArea{
+  width: 100%;
+  padding: 14px;
+  height: 112px;
+  border: 1px solid #000000;
+  resize: none;
+  margin-bottom: 25px;
+}
+.content__formBtn{
+  background-color: rgb(119, 51, 207);
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  padding: 19px 65px 20px;
+  cursor: pointer;
+  display: grid;
+  margin-bottom: 40px;
+}
+.posts{
+  display: grid;
+  grid-template-columns: auto;
+}
+.post__item{
+  display: flex;
+  margin-bottom: 50px;
+  background-color: rgb(177, 176, 176);
+  border-top-left-radius: 20%;
+}
+.post__profileImg{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.post__itemImg{
+  width: 300px;
+  margin-bottom: 20px;
+}
+.post__title{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.posts__content{
+  padding-left: 40px;
+}
+.post__preTitle{
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
