@@ -2,6 +2,7 @@ import s from"./Info.module.css"
 const Info = () => {
   return (
     <div>
+      <div className={s.bg__info}>
       <div className={s.content__userProfileInfo}>
         <div className={s.name}>Maria I.</div>
         <div className={s.status}>Я делаю вдох, так пахнет Dior❤‍🔥</div>
@@ -66,7 +67,7 @@ const Info = () => {
         </div>
       </div>
     </div>
-
+</div>
   );
 }
 
