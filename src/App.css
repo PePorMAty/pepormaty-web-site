@@ -20,3 +20,6 @@ body{
   "nav content";
   height: 700px;
 }
+.app__wrapperContent{
+  grid-area: content;
+}

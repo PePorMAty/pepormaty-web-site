@@ -5,11 +5,11 @@ const MyPosts = () => {
   return (
     <div>
       <div className={s.bg}>
-      <div className={s.content__formName}>My posts</div>
-      <form className={s.content__form}>
-        <textarea className={s.content__formArea} placeholder="New post..."></textarea>
-        <button className={s.content__formBtn} type="submit">Send</button>
-      </form>
+        <div className={s.content__formName}>My posts</div>
+        <form className={s.content__form}>
+          <textarea className={s.content__formArea} placeholder="New post..."></textarea>
+          <button className={s.content__formBtn} type="submit">Send</button>
+        </form>
       </div>
       <div className={s.posts}>
         {/* //1 */}
