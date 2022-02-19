@@ -9,24 +9,24 @@ const Info = () => {
         <div className={s.border__bottom}></div>
         <div className={s.userProfile__info}>
           <div className={s.userProfile__data}>Date of Birth: </div>
-          <div >10 may</div>
+            <div className={s.userProfile__pod}>10 may</div>
         </div>
         <div className={s.userProfile__info}>
           <div className={s.userProfile__data}>City: </div>
           <div >
-            <div className="">Novosibirsk</div>
+              <div className={s.userProfile__pod}>Novosibirsk</div>
           </div>
         </div>
         <div className={s.userProfile__info}>
           <div className={s.userProfile__data}>Place of study:</div>
           <div >
-            <div >NSTU(NETI)</div>
+              <div className={s.userProfile__pod}>NSTU(NETI)</div>
           </div>
         </div>
         <div className={s.userProfile__info}>
           <div className={s.userProfile__data}>Registration date</div>
           <div >
-            <div className="">26 avg 2011</div>
+              <div className={s.userProfile__pod}>26 avg 2011</div>
           </div>
         </div>
         <div className={s.userProfile__info}>

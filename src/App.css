@@ -1,5 +1,9 @@
 body{
-  background-color: rgb(218, 211, 211);
+  /* background-color: rgb(218, 211, 211); */
+  background-image: url("./images/ios--with--hues-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .container{
   max-width: 1280px;

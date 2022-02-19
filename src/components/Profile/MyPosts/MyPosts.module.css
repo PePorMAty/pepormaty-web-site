@@ -1,11 +1,18 @@
 .content__formName{
   font-size: 25px;
-  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  position: relative;
+  z-index: 1;
 }
 .content__form{
   display: flex;
   flex-wrap: wrap;
   justify-content:end;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 .content__formArea::placeholder{
   font-size: 16px;
@@ -35,32 +42,23 @@
   display: grid;
   grid-template-columns: auto;
 }
-.post__item{
-  display: flex;
+.bg{
+  background: inherit;
+  overflow: hidden;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  border-radius: 15px;
+  position: relative;
   margin-bottom: 50px;
-  background-color: rgb(177, 176, 176);
-  border-top-left-radius: 20%;
 }
-.post__profileImg{
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  vertical-align: top;
-}
-.post__itemImg{
-  width: 300px;
-  margin-bottom: 20px;
-}
-.post__title{
-  padding-top: 15px;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-.posts__content{
-  padding-left: 40px;
-}
-.post__preTitle{
-  padding-bottom: 15px;
-  margin-bottom: 10px;
-  font-size: 15px;
+.bg::before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+  filter: blur(10px);
+
 }
