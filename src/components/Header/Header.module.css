@@ -1,0 +1,29 @@
+.logo{
+  width: 50px;
+  padding: 5px 0px 0 5px;
+}
+.header{
+  grid-area: header;
+  border-radius: 2%;
+}
+.bg{
+  background: inherit;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  border-radius: 15px;
+  width: 1280px;
+  
+}
+.bg::before{
+  position: absolute;
+  content: '';
+  background: inherit;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+  filter: blur(15px);
+  
+}

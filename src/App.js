@@ -18,7 +18,7 @@ function App() {
           <div className="app__wrapperContent">
             <Routes>
               <Route path="/profile" element={<Profile />} />
-              <Route path="/Messages" element={<Messages />} />
+              <Route path="/Messages/*" element={<Messages />} />
               <Route path="/music" element={<Music />} />
               <Route path="/news" element={<News />} />
               <Route path="/settings" element={<Settings />} />
