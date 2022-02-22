@@ -1,6 +1,6 @@
 .content__userProfile{
   display: flex;
-  justify-content:space-between;
+ 
   margin-bottom: 25px;
   /* background-color: rgb(177, 176, 176); */
   padding: 25px 0 25px;
@@ -25,14 +25,15 @@
   filter: blur(30px);
 }
 .content__img{
+  /* margin-top: 10px; */
   height: 200px;
   width: 100%;
   margin-bottom: 20px;
-  background-image: url(https://pbs.twimg.com/profile_banners/352167265/1443363952/1500x500);
+  background-image: url(https://i.pinimg.com/originals/47/3a/67/473a67058d5406cbe0c1bf0e1035a1d2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(0.75px);
+  filter: blur(0.5px);
   border-radius: 10px;
 }
 .userProfile__img{
