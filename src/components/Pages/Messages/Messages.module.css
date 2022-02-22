@@ -19,9 +19,9 @@
   color: aqua;
   transition: 0.5s;
 }
-.dialogs__item .active{
+/* .dialogs__item .active{
   color: aqua;
-}
+} */
 .bg{
   background: inherit;
   overflow: hidden;
