@@ -1,4 +1,7 @@
 import s from "./Info.module.css"
+
+
+
 const Info = () => {
   return (
     <div>
@@ -36,8 +39,20 @@ const Info = () => {
             </div>
           </div>
           {/* podrobno */}
-          <div className={s.podrobno}>
+          <div className={s.podrobno} id="button">
             Подробная информация
+
+          </div>
+          <div className={s.podrobno__info} id="content">
+            <div className={s.info__title}>
+              Основная информация
+            </div>
+            <div className={s.userProfile__info}>
+              <div className={s.userProfile__data}>Place of study:</div>
+              <div >
+                <div className={s.userProfile__pod}>NSTU(NETI)</div>
+              </div>
+            </div>
           </div>
           {/* podrobno */}
           <div className={s.border__top}></div>
