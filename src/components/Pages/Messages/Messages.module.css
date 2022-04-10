@@ -19,9 +19,7 @@
   color: aqua;
   transition: 0.5s;
 }
-/* .dialogs__item .active{
-  color: aqua;
-} */
+
 .bg{
   background: inherit;
   overflow: hidden;
@@ -56,4 +54,11 @@
 .itemLink{
   text-decoration: none;
   color: inherit;
+}
+.message__img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  vertical-align:middle;
+  margin-right: 30px;
 }

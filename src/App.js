@@ -8,7 +8,9 @@ import Music from "./components/Pages/Music/Music";
 import News from "./components/Pages/News/News";
 import Settings from "./components/Pages/Settings/Settings";
 
+
 function App(props) {
+
   return (
     <BrowserRouter>
       <div className="container">
@@ -17,8 +19,8 @@ function App(props) {
           <NavBar />
           <div className="app__wrapperContent">
             <Routes>
-              <Route path="/profile" element={<Profile prop={props.prop}/>} />
-              <Route path="/Messages/*" element={<Messages prop={props.prop}/>} />
+              <Route path="/profile" element={<Profile prop={props.prop} state={props.state.profilePage.posts} />} />
+              <Route path="/Messages/*" element={<Messages prop={props.prop} state={props.state.messagesPage} />} />
               <Route path="/music" element={<Music />} />
               <Route path="/news" element={<News />} />
               <Route path="/settings" element={<Settings />} />
