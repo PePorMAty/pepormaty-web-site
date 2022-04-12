@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className={s.nav__menu}>
           <div className={s.nav__item}>
             <img className={s.link__logo} src="http://cdn.onlinewebfonts.com/svg/download_415634.png" />
-            <NavLink className={nav__itemLinkActive} to="/profile" activeClassName={s.active}>Profile</NavLink>
+            <NavLink className={nav__itemLinkActive} to="/profile" activeclassname={s.active}>Profile</NavLink>
           </div>
           <div className={s.nav__item}>
             <img className={s.link__logo} src="http://cdn.onlinewebfonts.com/svg/img_262995.png" />
@@ -18,15 +18,15 @@ const NavBar = () => {
           </div>
           <div className={s.nav__item}>
             <img className={s.link__logo} src="http://cdn.onlinewebfonts.com/svg/img_306988.png" />
-            <NavLink className={nav__itemLinkActive} to="Music" activeClassName={s.active}>Music</NavLink>
+            <NavLink className={nav__itemLinkActive} to="Music" activeclassname={s.active}>Music</NavLink>
           </div>
           <div className={s.nav__item}>
             <img className={s.link__logo} src="http://cdn.onlinewebfonts.com/svg/img_131741.png" />
-            <NavLink className={nav__itemLinkActive} to="News" activeClassName={s.active}>News</NavLink>
+            <NavLink className={nav__itemLinkActive} to="News" activeclassname={s.active}>News</NavLink>
           </div>
           <div className={s.nav__item}>
             <img className={s.link__logo} src="http://cdn.onlinewebfonts.com/svg/img_89453.png" />
-            <NavLink className={nav__itemLinkActive} to="Settings" activeClassName={s.active}><span>Settings</span></NavLink>
+            <NavLink className={nav__itemLinkActive} to="Settings" activeclassname={s.active}><span>Settings</span></NavLink>
           </div>
         </div>
       </div>

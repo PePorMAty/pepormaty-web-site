@@ -38,6 +38,9 @@
   display: grid;
   margin-bottom: 40px;
 }
+.content__formBtn:active{
+  background-color: rgb(75, 37, 124);
+}
 .posts{
   display: grid;
   grid-template-columns: auto;
